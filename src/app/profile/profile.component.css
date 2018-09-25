@@ -1,3 +1,51 @@
-.container{
-  margin-top: 60px;
+.screenprofile{
+  padding: 100px 0px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 10px;
 }
+
+.container:before{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title{
+  padding: 25px 0 0px 0;
+  margin-top: 30px;
+  text-align: center;
+}
+h2{
+  line-height: 1.2;
+  margin: 0;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+ hr{
+  height: 4px;
+  width: 70px;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(to right, #86377b 0%,#27273c 100%);
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: 0;
+ }
+ .row{
+  margin-right: -15px;
+  margin-left: -15px;
+ }
+ .container-text{
+  margin-left: 50px;
+  width: 60%;
+ }
+ .text{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  
+ }

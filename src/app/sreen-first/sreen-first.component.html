@@ -1,17 +1,11 @@
-<body>
-    <div class="waveWrapper waveAnimation">
-      <div class="waveWrapperInner bgTop">
-          <app-menu></app-menu>
+<body >
+    <div class="ScreenFirst" data-spy="scroll" data-target=".navbar-fixed-top">
           <div [@rollIn]="rollIn">
           <img src="../../assets/IMG/WhatsApp Image 2018-09-24 at 14.42.36.jpeg" alt="">
         </div>
-        <div class="wave waveTop"></div>
+        <div>
+            <app-profile></app-profile>
+            <app-proyectos></app-proyectos>
+        </div>
       </div>
-      <div class="waveWrapperInner bgMiddle">
-        <div class="wave waveMiddle"></div>
-      </div>
-      <div class="waveWrapperInner bgBottom">
-        <div class="wave waveBottom"></div>
-      </div>
-    </div>
 </body>
